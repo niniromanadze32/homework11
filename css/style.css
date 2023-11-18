@@ -1,4 +1,4 @@
-h3{
+header h3{
     margin-left: 63px;
     margin-top: 30px;
     font-size: 17px;
@@ -6,7 +6,7 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(88, 99, 227, 1);
 }
-h1{
+header h1{
     margin-top: 17px;
     margin-left: 63px;
     width: 371px;
@@ -67,5 +67,111 @@ input{
 .description{
     display: inline-block;
     vertical-align: middle;
+
+}
+.circle{
+    width: 67px;
+    height: 67px;
+    background-color: rgba(89, 104, 244, 1);
+    border-radius: 50%;
+    padding: 19px 13px;
+    margin-left: 79px;
+    display: flex;
+    justify-content: center;
+}
+main h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color:  rgba(78, 77, 84, 1);
+    display: flex;
+    justify-content: center;
+    }
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(153, 153, 154, 1);
+    display: flex;
+    justify-content: center;
+}
+.Email{
+    width: 227px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+.Phone{
+    width: 227px;
+    display: flex;
+    flex-direction:column ;
+    margin-left: 35px;
+}
+.Location{
+    width: 227px;
+    display: flex;
+    flex-direction:column ;
+    margin-left: 35px;
+}
+.contacts{
+    width: 1150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 37px;
+}
+main p{
+    margin-top: 17px;
+    margin-left: 63px;
+    width: 548px;
+    height: 112px;
+    font-size: 49px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer{
+    background-color:rgba(0, 0, 0, 1);
+    width: 1440px;
+    height: 372px;
+}
+.end h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: #F8F8F8;
+
+}
+.end p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #F8F8F8;
+}
+.end h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: rgba(153, 153, 154, 1);
+}
+.end a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(88, 99, 227, 1);
+}
+.end h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 1);
+}
+.end{
+    display: flex;
+    flex-direction: column;
 
 }
