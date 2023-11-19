@@ -87,7 +87,7 @@ main h2{
     display: flex;
     justify-content: center;
     }
-h4{
+main h4{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 700;
@@ -129,6 +129,14 @@ main p{
     font-weight: 400;
     font-family: Arial, Helvetica, sans-serif;
 }
+main h3{
+    margin-left: 63px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(88, 99, 227, 1);
+}
 .images{
     display: flex;
     flex-direction: row;
@@ -138,40 +146,105 @@ footer{
     background-color:rgba(0, 0, 0, 1);
     width: 1440px;
     height: 372px;
+   margin-top: 37px;
+   
 }
-.end h5{
+footer h5{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 21px;
     font-weight: 400;
     color: #F8F8F8;
 
 }
-.end p{
+footer p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
     font-weight: 700;
     color: #F8F8F8;
 }
-.end h6{
+footer h6{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: 700;
     color: rgba(153, 153, 154, 1);
 }
-.end a{
+footer a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: 400;
     color: rgba(88, 99, 227, 1);
 }
-.end h4{
+footer h4{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: 400;
     color:rgba(255, 255, 255, 1);
 }
-.end{
+.end1{
     display: flex;
     flex-direction: column;
+    height: 370px;
+   width: 300px;
+   display: inline-block;
+   margin-left: 123px;
+   vertical-align: middle;
+   margin-top: 73px;
+}
+.end2{
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    width: 300px;
+   display: inline-block;
+   vertical-align: middle;
+   margin-top: 73px;
+}
+.end3{
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    width :223px;
+    display: inline-block;
+    margin-top:30px;
+    vertical-align: middle;
+    margin-top: 73px;
+}
+footer img{
+    width: 27px;
+    height: 27px;
+}
+.end4{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 37px;
+    vertical-align: middle;
+    margin-top: 73px;
+}
+.end1 a{
+display: block;
+}
+.end2 a{
+    display: block;
+    }
+.one{
+display: flex;
+
+}
+.two{
+    display: flex;
+}
+.three{
+    display: flex;
+}
+
+
